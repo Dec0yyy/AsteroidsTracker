@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Asteroid Tracker</title>
+		<link rel="stylesheet" href="./styles.98995026.css" />
+		<link rel="icon" type="image/x-icon" href="./favicon.ef33bc91.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div id="content">
+			<div id="canvas-area"></div>
+			<div id="control-area">
+				<div class="main-btn" id="night-mode-btn">
+					<img src="./sun.cde97617.png" />
+				</div>
+				<div class="main-btn" id="physics-speed-btn">
+					<p>1<span>x</span></p>
+				</div>
+				<div class="main-btn" id="tl-btn"><p>List</p></div>
+				<div class="main-btn" id="highlight-color-btn">
+					<div id="highlight-color-value"></div>
+				</div>
+			</div>
+			<div id="main-hud">
+				<div id="main-hud-background"></div>
+				<div id="hud-arrows">
+					<div class="arrow-btn" id="left-arrow-btn">
+						<img src="./next.84cce7b7.png" style="transform: rotate(180deg)" />
+					</div>
+					<p id="name">401954 (2002 RW25)</p>
+					<div class="arrow-btn" id="right-arrow-btn">
+						<img src="./next.84cce7b7.png" />
+					</div>
+				</div>
+				<div id="data-area">
+					<p>Magnitude (H): <span id="magnitude"></span></p>
+					<p>Speed: <span id="speed">15.852 KMPS</span></p>
+					<p>Min estimated size: <span id="min-size">0.7253 KM</span></p>
+					<p>Max estimated size: <span id="max-size">1.6219 KM</span></p>
+					<p>close approach date: <span id="cad">10/10/2023</span></p>
+					<p>Distance from earth: <span id="distance">50329479 KM</span></p>
+					<p id="threat">No threat to Earth</p>
+				</div>
+			</div>
+			<div id="asteroid-list">
+				<div id="al-close-btn"><img src="./close.cb06b434.png" /></div>
+				<div id="al-toggle">
+					<p>A</p>
+					<p>S</p>
+					<p>T</p>
+					<p>E</p>
+					<p>R</p>
+					<p>O</p>
+					<p>I</p>
+					<p style="margin-bottom: 13px">D</p>
+					<p style="margin-top: 13px">L</p>
+					<p>I</p>
+					<p>S</p>
+					<p>T</p>
+				</div>
+				<p id="list-title">Asteroid List</p>
+				<ul id="list"></ul>
+			</div>
+		</div>
+		<script type="module" src="./main.da0980e1.js"></script>
+	</body>
+</html>
